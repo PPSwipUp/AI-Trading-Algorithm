@@ -50,14 +50,14 @@ from cross_resolution_guard import extract_base_instrument
 # Configuration (from blueprint Section 3.2)
 # ─────────────────────────────────────────────────────────
 
-TRAIN_YEARS = 6
+TRAIN_YEARS = 8               # 8yr training window (was 6) — more samples per fold
 VAL_YEARS = 1
 TEST_YEARS = 1
 SLIDE_YEARS = 1
 PURGE_DAYS = 30
 MIN_FOLDS = 4
-DEFAULT_MAX_FOLDS = 8     # Blueprint says ≥4, no need for 78
-MAX_INSTRUMENT_SHARE = 0.15
+DEFAULT_MAX_FOLDS = 8
+MAX_INSTRUMENT_SHARE = 1.0    # No cap — the 15% cap was throwing away 4H data
 MIN_REGIME_SHARE = 0.05
 
 

@@ -31,15 +31,15 @@ from typing import List, Tuple, Optional, Dict
 # ---------------------------------------------------------
 
 LOOKBACK = 60
-DEFAULT_HIDDEN_DIM = 64       # 64 for CPU (4x faster, 4x fewer params); use 128 on GPU
+DEFAULT_HIDDEN_DIM = 32       # 32 gives ~25k params → 4:1 ratio with 100k+ samples
 MAX_HIDDEN_DIM = 256
 N_TCN_LAYERS = 3
 KERNEL_SIZE = 3
-ENCODER_DROPOUT = 0.30        # Increased from 0.25 — stronger regularisation
+ENCODER_DROPOUT = 0.35        # Strong regularisation for noisy financial data
 
-HEAD_DROPOUT = 0.40           # Increased from 0.30 — head is where overfitting concentrates
+HEAD_DROPOUT = 0.45           # Even stronger — head overfits fastest
 FORWARD_HORIZONS = [1, 5, 20]
-LABEL_SMOOTHING = 0.05
+LABEL_SMOOTHING = 0.10        # Increased from 0.05 — prevents overconfident outputs
 
 HUBER_DELTA = 0.01
 DIRECTION_WEIGHT = 0.5
@@ -182,15 +182,17 @@ class PredictionHead(nn.Module):
 
     def __init__(self, hidden_dim, dropout=HEAD_DROPOUT):
         super().__init__()
+        mid = max(hidden_dim, 32)
+        small = max(hidden_dim // 2, 16)
         self.net = nn.Sequential(
-            nn.Linear(hidden_dim, 64),
+            nn.Linear(hidden_dim, mid),
             nn.GELU(),
             nn.Dropout(dropout),
-            nn.Linear(64, 32),
+            nn.Linear(mid, small),
             nn.GELU(),
         )
-        self.dir_out = nn.Linear(32, 1)
-        self.mag_out = nn.Linear(32, 1)
+        self.dir_out = nn.Linear(small, 1)
+        self.mag_out = nn.Linear(small, 1)
 
     def forward(self, x):
         h = self.net(x)

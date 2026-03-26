@@ -1,6 +1,6 @@
 {
   "fold": 8,
-  "train_start": "2017-11-06",
+  "train_start": "2015-11-06",
   "train_end": "2023-11-06",
   "purge_end": "2023-12-06",
   "val_start": "2023-12-06",
@@ -12,7 +12,7 @@
     "train": {
       "ASX_BHP_1D": {
         "file": "data/splits/fold_8/train/ASX_BHP_1D.npz",
-        "n_samples": 1518,
+        "n_samples": 2023,
         "n_features": 35
       },
       "ASX_BHP_1H": {
@@ -22,17 +22,17 @@
       },
       "ASX_BHP_1W": {
         "file": "data/splits/fold_8/train/ASX_BHP_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "ASX_BHP_4H": {
         "file": "data/splits/fold_8/train/ASX_BHP_4H.npz",
-        "n_samples": 3035,
+        "n_samples": 3617,
         "n_features": 35
       },
       "ASX_CSL_1D": {
         "file": "data/splits/fold_8/train/ASX_CSL_1D.npz",
-        "n_samples": 1516,
+        "n_samples": 2021,
         "n_features": 35
       },
       "ASX_CSL_1H": {
@@ -42,17 +42,17 @@
       },
       "ASX_CSL_1W": {
         "file": "data/splits/fold_8/train/ASX_CSL_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "ASX_CSL_4H": {
         "file": "data/splits/fold_8/train/ASX_CSL_4H.npz",
-        "n_samples": 3031,
+        "n_samples": 3617,
         "n_features": 35
       },
       "ASX_RIO_1D": {
         "file": "data/splits/fold_8/train/ASX_RIO_1D.npz",
-        "n_samples": 1518,
+        "n_samples": 2023,
         "n_features": 35
       },
       "ASX_RIO_1H": {
@@ -62,17 +62,17 @@
       },
       "ASX_RIO_1W": {
         "file": "data/splits/fold_8/train/ASX_RIO_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "ASX_RIO_4H": {
         "file": "data/splits/fold_8/train/ASX_RIO_4H.npz",
-        "n_samples": 3035,
+        "n_samples": 3617,
         "n_features": 35
       },
       "DJ_DJI_1D": {
         "file": "data/splits/fold_8/train/DJ_DJI_1D.npz",
-        "n_samples": 1509,
+        "n_samples": 2012,
         "n_features": 35
       },
       "DJ_DJI_1H": {
@@ -82,22 +82,22 @@
       },
       "DJ_DJI_1W": {
         "file": "data/splits/fold_8/train/DJ_DJI_1W.npz",
-        "n_samples": 313,
+        "n_samples": 417,
         "n_features": 35
       },
       "DJ_DJI_4H": {
         "file": "data/splits/fold_8/train/DJ_DJI_4H.npz",
-        "n_samples": 3012,
+        "n_samples": 3636,
         "n_features": 35
       },
       "EURONEXT_MC_1D": {
         "file": "data/splits/fold_8/train/EURONEXT_MC_1D.npz",
-        "n_samples": 1537,
+        "n_samples": 2050,
         "n_features": 35
       },
       "EURONEXT_MC_1W": {
         "file": "data/splits/fold_8/train/EURONEXT_MC_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "EURONEXT_MC_4H": {
@@ -107,12 +107,12 @@
       },
       "EURONEXT_SAN_1D": {
         "file": "data/splits/fold_8/train/EURONEXT_SAN_1D.npz",
-        "n_samples": 1537,
+        "n_samples": 2050,
         "n_features": 35
       },
       "EURONEXT_SAN_1W": {
         "file": "data/splits/fold_8/train/EURONEXT_SAN_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "EURONEXT_SAN_4H": {
@@ -122,12 +122,12 @@
       },
       "FOREXCOM_AUDNZD_1D": {
         "file": "data/splits/fold_8/train/FOREXCOM_AUDNZD_1D.npz",
-        "n_samples": 1557,
+        "n_samples": 2076,
         "n_features": 35
       },
       "FOREXCOM_AUDNZD_1W": {
         "file": "data/splits/fold_8/train/FOREXCOM_AUDNZD_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "FOREXCOM_AUDNZD_4H": {
@@ -137,12 +137,12 @@
       },
       "FOREXCOM_AUDUSD_1D": {
         "file": "data/splits/fold_8/train/FOREXCOM_AUDUSD_1D.npz",
-        "n_samples": 1558,
+        "n_samples": 2078,
         "n_features": 35
       },
       "FOREXCOM_AUDUSD_1W": {
         "file": "data/splits/fold_8/train/FOREXCOM_AUDUSD_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "FOREXCOM_AUDUSD_4H": {
@@ -162,12 +162,12 @@
       },
       "FOREXCOM_EURCHF_1D": {
         "file": "data/splits/fold_8/train/FOREXCOM_EURCHF_1D.npz",
-        "n_samples": 1561,
+        "n_samples": 2080,
         "n_features": 35
       },
       "FOREXCOM_EURCHF_1W": {
         "file": "data/splits/fold_8/train/FOREXCOM_EURCHF_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "FOREXCOM_EURCHF_4H": {
@@ -177,12 +177,12 @@
       },
       "FOREXCOM_EURGBP_1D": {
         "file": "data/splits/fold_8/train/FOREXCOM_EURGBP_1D.npz",
-        "n_samples": 1559,
+        "n_samples": 2078,
         "n_features": 35
       },
       "FOREXCOM_EURGBP_1W": {
         "file": "data/splits/fold_8/train/FOREXCOM_EURGBP_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "FOREXCOM_EURGBP_4H": {
@@ -192,12 +192,12 @@
       },
       "FOREXCOM_EURJPY_1D": {
         "file": "data/splits/fold_8/train/FOREXCOM_EURJPY_1D.npz",
-        "n_samples": 1559,
+        "n_samples": 2078,
         "n_features": 35
       },
       "FOREXCOM_EURJPY_1W": {
         "file": "data/splits/fold_8/train/FOREXCOM_EURJPY_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "FOREXCOM_EURJPY_4H": {
@@ -207,12 +207,12 @@
       },
       "FOREXCOM_EURUSD_1D": {
         "file": "data/splits/fold_8/train/FOREXCOM_EURUSD_1D.npz",
-        "n_samples": 1560,
+        "n_samples": 2079,
         "n_features": 35
       },
       "FOREXCOM_EURUSD_1W": {
         "file": "data/splits/fold_8/train/FOREXCOM_EURUSD_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "FOREXCOM_EURUSD_4H": {
@@ -222,12 +222,12 @@
       },
       "FOREXCOM_GBPJPY_1D": {
         "file": "data/splits/fold_8/train/FOREXCOM_GBPJPY_1D.npz",
-        "n_samples": 1559,
+        "n_samples": 2078,
         "n_features": 35
       },
       "FOREXCOM_GBPJPY_1W": {
         "file": "data/splits/fold_8/train/FOREXCOM_GBPJPY_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "FOREXCOM_GBPJPY_4H": {
@@ -237,12 +237,12 @@
       },
       "FOREXCOM_GBPUSD_1D": {
         "file": "data/splits/fold_8/train/FOREXCOM_GBPUSD_1D.npz",
-        "n_samples": 1558,
+        "n_samples": 2077,
         "n_features": 35
       },
       "FOREXCOM_GBPUSD_1W": {
         "file": "data/splits/fold_8/train/FOREXCOM_GBPUSD_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "FOREXCOM_GBPUSD_4H": {
@@ -252,12 +252,12 @@
       },
       "FOREXCOM_GER40_1D": {
         "file": "data/splits/fold_8/train/FOREXCOM_GER40_1D.npz",
-        "n_samples": 1551,
+        "n_samples": 2066,
         "n_features": 35
       },
       "FOREXCOM_GER40_1W": {
         "file": "data/splits/fold_8/train/FOREXCOM_GER40_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "FOREXCOM_GER40_4H": {
@@ -267,12 +267,12 @@
       },
       "FOREXCOM_NZDUSD_1D": {
         "file": "data/splits/fold_8/train/FOREXCOM_NZDUSD_1D.npz",
-        "n_samples": 1558,
+        "n_samples": 2077,
         "n_features": 35
       },
       "FOREXCOM_NZDUSD_1W": {
         "file": "data/splits/fold_8/train/FOREXCOM_NZDUSD_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "FOREXCOM_NZDUSD_4H": {
@@ -282,12 +282,12 @@
       },
       "FOREXCOM_UK100_1D": {
         "file": "data/splits/fold_8/train/FOREXCOM_UK100_1D.npz",
-        "n_samples": 1551,
+        "n_samples": 2067,
         "n_features": 35
       },
       "FOREXCOM_UK100_1W": {
         "file": "data/splits/fold_8/train/FOREXCOM_UK100_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "FOREXCOM_UK100_4H": {
@@ -312,12 +312,12 @@
       },
       "FOREXCOM_USDCAD_1D": {
         "file": "data/splits/fold_8/train/FOREXCOM_USDCAD_1D.npz",
-        "n_samples": 1559,
+        "n_samples": 2058,
         "n_features": 35
       },
       "FOREXCOM_USDCAD_1W": {
         "file": "data/splits/fold_8/train/FOREXCOM_USDCAD_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "FOREXCOM_USDCAD_4H": {
@@ -327,12 +327,12 @@
       },
       "FOREXCOM_USDCHF_1D": {
         "file": "data/splits/fold_8/train/FOREXCOM_USDCHF_1D.npz",
-        "n_samples": 1558,
+        "n_samples": 2077,
         "n_features": 35
       },
       "FOREXCOM_USDCHF_1W": {
         "file": "data/splits/fold_8/train/FOREXCOM_USDCHF_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "FOREXCOM_USDCHF_4H": {
@@ -342,12 +342,12 @@
       },
       "FOREXCOM_USDJPY_1D": {
         "file": "data/splits/fold_8/train/FOREXCOM_USDJPY_1D.npz",
-        "n_samples": 1559,
+        "n_samples": 2078,
         "n_features": 35
       },
       "FOREXCOM_USDJPY_1W": {
         "file": "data/splits/fold_8/train/FOREXCOM_USDJPY_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "FOREXCOM_USDJPY_4H": {
@@ -372,12 +372,12 @@
       },
       "FOREXCOM_XAGUSD_1D": {
         "file": "data/splits/fold_8/train/FOREXCOM_XAGUSD_1D.npz",
-        "n_samples": 1554,
+        "n_samples": 2072,
         "n_features": 35
       },
       "FOREXCOM_XAGUSD_1W": {
         "file": "data/splits/fold_8/train/FOREXCOM_XAGUSD_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "FOREXCOM_XAGUSD_4H": {
@@ -387,12 +387,12 @@
       },
       "FOREXCOM_XAUUSD_1D": {
         "file": "data/splits/fold_8/train/FOREXCOM_XAUUSD_1D.npz",
-        "n_samples": 1551,
+        "n_samples": 2067,
         "n_features": 35
       },
       "FOREXCOM_XAUUSD_1W": {
         "file": "data/splits/fold_8/train/FOREXCOM_XAUUSD_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "FOREXCOM_XAUUSD_4H": {
@@ -402,7 +402,7 @@
       },
       "HSI_HSI_1D": {
         "file": "data/splits/fold_8/train/HSI_HSI_1D.npz",
-        "n_samples": 1476,
+        "n_samples": 1968,
         "n_features": 35
       },
       "HSI_HSI_1H": {
@@ -412,22 +412,22 @@
       },
       "HSI_HSI_1W": {
         "file": "data/splits/fold_8/train/HSI_HSI_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "HSI_HSI_4H": {
         "file": "data/splits/fold_8/train/HSI_HSI_4H.npz",
-        "n_samples": 2936,
+        "n_samples": 3658,
         "n_features": 35
       },
       "LSE_AZN_1D": {
         "file": "data/splits/fold_8/train/LSE_AZN_1D.npz",
-        "n_samples": 1514,
+        "n_samples": 2019,
         "n_features": 35
       },
       "LSE_AZN_1W": {
         "file": "data/splits/fold_8/train/LSE_AZN_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "LSE_AZN_4H": {
@@ -437,12 +437,12 @@
       },
       "LSE_HSBA_1D": {
         "file": "data/splits/fold_8/train/LSE_HSBA_1D.npz",
-        "n_samples": 1514,
+        "n_samples": 2019,
         "n_features": 35
       },
       "LSE_HSBA_1W": {
         "file": "data/splits/fold_8/train/LSE_HSBA_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "LSE_HSBA_4H": {
@@ -452,12 +452,12 @@
       },
       "LSE_SHEL_1D": {
         "file": "data/splits/fold_8/train/LSE_SHEL_1D.npz",
-        "n_samples": 1514,
+        "n_samples": 2019,
         "n_features": 35
       },
       "LSE_SHEL_1W": {
         "file": "data/splits/fold_8/train/LSE_SHEL_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "LSE_SHEL_4H": {
@@ -467,12 +467,12 @@
       },
       "LSE_ULVR_1D": {
         "file": "data/splits/fold_8/train/LSE_ULVR_1D.npz",
-        "n_samples": 1514,
+        "n_samples": 2019,
         "n_features": 35
       },
       "LSE_ULVR_1W": {
         "file": "data/splits/fold_8/train/LSE_ULVR_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "LSE_ULVR_4H": {
@@ -482,7 +482,7 @@
       },
       "NASDAQ_AAPL_1D": {
         "file": "data/splits/fold_8/train/NASDAQ_AAPL_1D.npz",
-        "n_samples": 1509,
+        "n_samples": 2012,
         "n_features": 35
       },
       "NASDAQ_AAPL_1H": {
@@ -492,17 +492,17 @@
       },
       "NASDAQ_AAPL_1W": {
         "file": "data/splits/fold_8/train/NASDAQ_AAPL_1W.npz",
-        "n_samples": 313,
+        "n_samples": 417,
         "n_features": 35
       },
       "NASDAQ_AAPL_4H": {
         "file": "data/splits/fold_8/train/NASDAQ_AAPL_4H.npz",
-        "n_samples": 3013,
+        "n_samples": 3636,
         "n_features": 35
       },
       "NASDAQ_AMZN_1D": {
         "file": "data/splits/fold_8/train/NASDAQ_AMZN_1D.npz",
-        "n_samples": 1509,
+        "n_samples": 2012,
         "n_features": 35
       },
       "NASDAQ_AMZN_1H": {
@@ -512,17 +512,17 @@
       },
       "NASDAQ_AMZN_1W": {
         "file": "data/splits/fold_8/train/NASDAQ_AMZN_1W.npz",
-        "n_samples": 313,
+        "n_samples": 417,
         "n_features": 35
       },
       "NASDAQ_AMZN_4H": {
         "file": "data/splits/fold_8/train/NASDAQ_AMZN_4H.npz",
-        "n_samples": 3010,
+        "n_samples": 3636,
         "n_features": 35
       },
       "NASDAQ_GOOGL_1D": {
         "file": "data/splits/fold_8/train/NASDAQ_GOOGL_1D.npz",
-        "n_samples": 1509,
+        "n_samples": 2012,
         "n_features": 35
       },
       "NASDAQ_GOOGL_1H": {
@@ -532,17 +532,17 @@
       },
       "NASDAQ_GOOGL_1W": {
         "file": "data/splits/fold_8/train/NASDAQ_GOOGL_1W.npz",
-        "n_samples": 313,
+        "n_samples": 417,
         "n_features": 35
       },
       "NASDAQ_GOOGL_4H": {
         "file": "data/splits/fold_8/train/NASDAQ_GOOGL_4H.npz",
-        "n_samples": 3008,
+        "n_samples": 3636,
         "n_features": 35
       },
       "NASDAQ_META_1D": {
         "file": "data/splits/fold_8/train/NASDAQ_META_1D.npz",
-        "n_samples": 1509,
+        "n_samples": 2012,
         "n_features": 35
       },
       "NASDAQ_META_1H": {
@@ -552,17 +552,17 @@
       },
       "NASDAQ_META_1W": {
         "file": "data/splits/fold_8/train/NASDAQ_META_1W.npz",
-        "n_samples": 313,
+        "n_samples": 417,
         "n_features": 35
       },
       "NASDAQ_META_4H": {
         "file": "data/splits/fold_8/train/NASDAQ_META_4H.npz",
-        "n_samples": 3009,
+        "n_samples": 3636,
         "n_features": 35
       },
       "NASDAQ_MSFT_1D": {
         "file": "data/splits/fold_8/train/NASDAQ_MSFT_1D.npz",
-        "n_samples": 1509,
+        "n_samples": 2012,
         "n_features": 35
       },
       "NASDAQ_MSFT_1H": {
@@ -572,17 +572,17 @@
       },
       "NASDAQ_MSFT_1W": {
         "file": "data/splits/fold_8/train/NASDAQ_MSFT_1W.npz",
-        "n_samples": 313,
+        "n_samples": 417,
         "n_features": 35
       },
       "NASDAQ_MSFT_4H": {
         "file": "data/splits/fold_8/train/NASDAQ_MSFT_4H.npz",
-        "n_samples": 3011,
+        "n_samples": 3636,
         "n_features": 35
       },
       "NASDAQ_NDX_1D": {
         "file": "data/splits/fold_8/train/NASDAQ_NDX_1D.npz",
-        "n_samples": 1509,
+        "n_samples": 2012,
         "n_features": 35
       },
       "NASDAQ_NDX_1H": {
@@ -592,17 +592,17 @@
       },
       "NASDAQ_NDX_1W": {
         "file": "data/splits/fold_8/train/NASDAQ_NDX_1W.npz",
-        "n_samples": 313,
+        "n_samples": 417,
         "n_features": 35
       },
       "NASDAQ_NDX_4H": {
         "file": "data/splits/fold_8/train/NASDAQ_NDX_4H.npz",
-        "n_samples": 3006,
+        "n_samples": 3636,
         "n_features": 35
       },
       "NASDAQ_NVDA_1D": {
         "file": "data/splits/fold_8/train/NASDAQ_NVDA_1D.npz",
-        "n_samples": 1509,
+        "n_samples": 2012,
         "n_features": 35
       },
       "NASDAQ_NVDA_1H": {
@@ -612,17 +612,17 @@
       },
       "NASDAQ_NVDA_1W": {
         "file": "data/splits/fold_8/train/NASDAQ_NVDA_1W.npz",
-        "n_samples": 313,
+        "n_samples": 417,
         "n_features": 35
       },
       "NASDAQ_NVDA_4H": {
         "file": "data/splits/fold_8/train/NASDAQ_NVDA_4H.npz",
-        "n_samples": 3009,
+        "n_samples": 3636,
         "n_features": 35
       },
       "NASDAQ_TSLA_1D": {
         "file": "data/splits/fold_8/train/NASDAQ_TSLA_1D.npz",
-        "n_samples": 1509,
+        "n_samples": 2012,
         "n_features": 35
       },
       "NASDAQ_TSLA_1H": {
@@ -632,17 +632,17 @@
       },
       "NASDAQ_TSLA_1W": {
         "file": "data/splits/fold_8/train/NASDAQ_TSLA_1W.npz",
-        "n_samples": 313,
+        "n_samples": 417,
         "n_features": 35
       },
       "NASDAQ_TSLA_4H": {
         "file": "data/splits/fold_8/train/NASDAQ_TSLA_4H.npz",
-        "n_samples": 3010,
+        "n_samples": 3636,
         "n_features": 35
       },
       "NYSE_ABBV_1D": {
         "file": "data/splits/fold_8/train/NYSE_ABBV_1D.npz",
-        "n_samples": 1509,
+        "n_samples": 2012,
         "n_features": 35
       },
       "NYSE_ABBV_1H": {
@@ -652,17 +652,17 @@
       },
       "NYSE_ABBV_1W": {
         "file": "data/splits/fold_8/train/NYSE_ABBV_1W.npz",
-        "n_samples": 313,
+        "n_samples": 390,
         "n_features": 35
       },
       "NYSE_ABBV_4H": {
         "file": "data/splits/fold_8/train/NYSE_ABBV_4H.npz",
-        "n_samples": 3008,
+        "n_samples": 3636,
         "n_features": 35
       },
       "NYSE_BAC_1D": {
         "file": "data/splits/fold_8/train/NYSE_BAC_1D.npz",
-        "n_samples": 1509,
+        "n_samples": 2012,
         "n_features": 35
       },
       "NYSE_BAC_1H": {
@@ -672,17 +672,17 @@
       },
       "NYSE_BAC_1W": {
         "file": "data/splits/fold_8/train/NYSE_BAC_1W.npz",
-        "n_samples": 313,
+        "n_samples": 417,
         "n_features": 35
       },
       "NYSE_BAC_4H": {
         "file": "data/splits/fold_8/train/NYSE_BAC_4H.npz",
-        "n_samples": 3008,
+        "n_samples": 3636,
         "n_features": 35
       },
       "NYSE_CVX_1D": {
         "file": "data/splits/fold_8/train/NYSE_CVX_1D.npz",
-        "n_samples": 1509,
+        "n_samples": 2012,
         "n_features": 35
       },
       "NYSE_CVX_1H": {
@@ -692,17 +692,17 @@
       },
       "NYSE_CVX_1W": {
         "file": "data/splits/fold_8/train/NYSE_CVX_1W.npz",
-        "n_samples": 313,
+        "n_samples": 417,
         "n_features": 35
       },
       "NYSE_CVX_4H": {
         "file": "data/splits/fold_8/train/NYSE_CVX_4H.npz",
-        "n_samples": 3007,
+        "n_samples": 3636,
         "n_features": 35
       },
       "NYSE_DIS_1D": {
         "file": "data/splits/fold_8/train/NYSE_DIS_1D.npz",
-        "n_samples": 1509,
+        "n_samples": 2012,
         "n_features": 35
       },
       "NYSE_DIS_1H": {
@@ -712,17 +712,17 @@
       },
       "NYSE_DIS_1W": {
         "file": "data/splits/fold_8/train/NYSE_DIS_1W.npz",
-        "n_samples": 313,
+        "n_samples": 417,
         "n_features": 35
       },
       "NYSE_DIS_4H": {
         "file": "data/splits/fold_8/train/NYSE_DIS_4H.npz",
-        "n_samples": 3009,
+        "n_samples": 3636,
         "n_features": 35
       },
       "NYSE_HD_1D": {
         "file": "data/splits/fold_8/train/NYSE_HD_1D.npz",
-        "n_samples": 1509,
+        "n_samples": 2012,
         "n_features": 35
       },
       "NYSE_HD_1H": {
@@ -732,17 +732,17 @@
       },
       "NYSE_HD_1W": {
         "file": "data/splits/fold_8/train/NYSE_HD_1W.npz",
-        "n_samples": 313,
+        "n_samples": 417,
         "n_features": 35
       },
       "NYSE_HD_4H": {
         "file": "data/splits/fold_8/train/NYSE_HD_4H.npz",
-        "n_samples": 3008,
+        "n_samples": 3636,
         "n_features": 35
       },
       "NYSE_JNJ_1D": {
         "file": "data/splits/fold_8/train/NYSE_JNJ_1D.npz",
-        "n_samples": 1509,
+        "n_samples": 2012,
         "n_features": 35
       },
       "NYSE_JNJ_1H": {
@@ -752,17 +752,17 @@
       },
       "NYSE_JNJ_1W": {
         "file": "data/splits/fold_8/train/NYSE_JNJ_1W.npz",
-        "n_samples": 313,
+        "n_samples": 417,
         "n_features": 35
       },
       "NYSE_JNJ_4H": {
         "file": "data/splits/fold_8/train/NYSE_JNJ_4H.npz",
-        "n_samples": 3007,
+        "n_samples": 3636,
         "n_features": 35
       },
       "NYSE_JPM_1D": {
         "file": "data/splits/fold_8/train/NYSE_JPM_1D.npz",
-        "n_samples": 1509,
+        "n_samples": 2012,
         "n_features": 35
       },
       "NYSE_JPM_1H": {
@@ -772,17 +772,17 @@
       },
       "NYSE_JPM_1W": {
         "file": "data/splits/fold_8/train/NYSE_JPM_1W.npz",
-        "n_samples": 313,
+        "n_samples": 417,
         "n_features": 35
       },
       "NYSE_JPM_4H": {
         "file": "data/splits/fold_8/train/NYSE_JPM_4H.npz",
-        "n_samples": 3007,
+        "n_samples": 3636,
         "n_features": 35
       },
       "NYSE_KO_1D": {
         "file": "data/splits/fold_8/train/NYSE_KO_1D.npz",
-        "n_samples": 1509,
+        "n_samples": 2012,
         "n_features": 35
       },
       "NYSE_KO_1H": {
@@ -792,17 +792,17 @@
       },
       "NYSE_KO_1W": {
         "file": "data/splits/fold_8/train/NYSE_KO_1W.npz",
-        "n_samples": 313,
+        "n_samples": 417,
         "n_features": 35
       },
       "NYSE_KO_4H": {
         "file": "data/splits/fold_8/train/NYSE_KO_4H.npz",
-        "n_samples": 3007,
+        "n_samples": 3636,
         "n_features": 35
       },
       "NYSE_MRK_1D": {
         "file": "data/splits/fold_8/train/NYSE_MRK_1D.npz",
-        "n_samples": 1509,
+        "n_samples": 2012,
         "n_features": 35
       },
       "NYSE_MRK_1H": {
@@ -812,17 +812,17 @@
       },
       "NYSE_MRK_1W": {
         "file": "data/splits/fold_8/train/NYSE_MRK_1W.npz",
-        "n_samples": 313,
+        "n_samples": 417,
         "n_features": 35
       },
       "NYSE_MRK_4H": {
         "file": "data/splits/fold_8/train/NYSE_MRK_4H.npz",
-        "n_samples": 3006,
+        "n_samples": 3636,
         "n_features": 35
       },
       "NYSE_PFE_1D": {
         "file": "data/splits/fold_8/train/NYSE_PFE_1D.npz",
-        "n_samples": 1509,
+        "n_samples": 2012,
         "n_features": 35
       },
       "NYSE_PFE_1H": {
@@ -832,17 +832,17 @@
       },
       "NYSE_PFE_1W": {
         "file": "data/splits/fold_8/train/NYSE_PFE_1W.npz",
-        "n_samples": 313,
+        "n_samples": 417,
         "n_features": 35
       },
       "NYSE_PFE_4H": {
         "file": "data/splits/fold_8/train/NYSE_PFE_4H.npz",
-        "n_samples": 3009,
+        "n_samples": 3636,
         "n_features": 35
       },
       "NYSE_PG_1D": {
         "file": "data/splits/fold_8/train/NYSE_PG_1D.npz",
-        "n_samples": 1509,
+        "n_samples": 2012,
         "n_features": 35
       },
       "NYSE_PG_1H": {
@@ -852,17 +852,17 @@
       },
       "NYSE_PG_1W": {
         "file": "data/splits/fold_8/train/NYSE_PG_1W.npz",
-        "n_samples": 313,
+        "n_samples": 417,
         "n_features": 35
       },
       "NYSE_PG_4H": {
         "file": "data/splits/fold_8/train/NYSE_PG_4H.npz",
-        "n_samples": 3006,
+        "n_samples": 3636,
         "n_features": 35
       },
       "NYSE_XOM_1D": {
         "file": "data/splits/fold_8/train/NYSE_XOM_1D.npz",
-        "n_samples": 1509,
+        "n_samples": 2012,
         "n_features": 35
       },
       "NYSE_XOM_1H": {
@@ -872,17 +872,17 @@
       },
       "NYSE_XOM_1W": {
         "file": "data/splits/fold_8/train/NYSE_XOM_1W.npz",
-        "n_samples": 313,
+        "n_samples": 417,
         "n_features": 35
       },
       "NYSE_XOM_4H": {
         "file": "data/splits/fold_8/train/NYSE_XOM_4H.npz",
-        "n_samples": 3009,
+        "n_samples": 3636,
         "n_features": 35
       },
       "SP_SPX_1D": {
         "file": "data/splits/fold_8/train/SP_SPX_1D.npz",
-        "n_samples": 1509,
+        "n_samples": 2012,
         "n_features": 35
       },
       "SP_SPX_1H": {
@@ -892,17 +892,17 @@
       },
       "SP_SPX_1W": {
         "file": "data/splits/fold_8/train/SP_SPX_1W.npz",
-        "n_samples": 313,
+        "n_samples": 417,
         "n_features": 35
       },
       "SP_SPX_4H": {
         "file": "data/splits/fold_8/train/SP_SPX_4H.npz",
-        "n_samples": 3012,
+        "n_samples": 3636,
         "n_features": 35
       },
       "TSE_7203_1D": {
         "file": "data/splits/fold_8/train/TSE_7203_1D.npz",
-        "n_samples": 1463,
+        "n_samples": 1953,
         "n_features": 35
       },
       "TSE_7203_1H": {
@@ -912,17 +912,17 @@
       },
       "TSE_7203_1W": {
         "file": "data/splits/fold_8/train/TSE_7203_1W.npz",
-        "n_samples": 312,
+        "n_samples": 417,
         "n_features": 35
       },
       "TSE_7203_4H": {
         "file": "data/splits/fold_8/train/TSE_7203_4H.npz",
-        "n_samples": 2925,
+        "n_samples": 3661,
         "n_features": 35
       },
       "TSX_RY_1D": {
         "file": "data/splits/fold_8/train/TSX_RY_1D.npz",
-        "n_samples": 1505,
+        "n_samples": 2006,
         "n_features": 35
       },
       "TSX_RY_1H": {
@@ -932,17 +932,17 @@
       },
       "TSX_RY_1W": {
         "file": "data/splits/fold_8/train/TSX_RY_1W.npz",
-        "n_samples": 313,
+        "n_samples": 417,
         "n_features": 35
       },
       "TSX_RY_4H": {
         "file": "data/splits/fold_8/train/TSX_RY_4H.npz",
-        "n_samples": 3005,
+        "n_samples": 3627,
         "n_features": 35
       },
       "TSX_TD_1D": {
         "file": "data/splits/fold_8/train/TSX_TD_1D.npz",
-        "n_samples": 1505,
+        "n_samples": 2006,
         "n_features": 35
       },
       "TSX_TD_1H": {
@@ -952,17 +952,17 @@
       },
       "TSX_TD_1W": {
         "file": "data/splits/fold_8/train/TSX_TD_1W.npz",
-        "n_samples": 313,
+        "n_samples": 417,
         "n_features": 35
       },
       "TSX_TD_4H": {
         "file": "data/splits/fold_8/train/TSX_TD_4H.npz",
-        "n_samples": 3005,
+        "n_samples": 3627,
         "n_features": 35
       },
       "TVC_NI225_1D": {
         "file": "data/splits/fold_8/train/TVC_NI225_1D.npz",
-        "n_samples": 1463,
+        "n_samples": 1953,
         "n_features": 35
       },
       "TVC_NI225_1H": {
@@ -972,22 +972,22 @@
       },
       "TVC_NI225_1W": {
         "file": "data/splits/fold_8/train/TVC_NI225_1W.npz",
-        "n_samples": 312,
+        "n_samples": 417,
         "n_features": 35
       },
       "TVC_NI225_4H": {
         "file": "data/splits/fold_8/train/TVC_NI225_4H.npz",
-        "n_samples": 2928,
+        "n_samples": 3661,
         "n_features": 35
       },
       "XETR_SAP_1D": {
         "file": "data/splits/fold_8/train/XETR_SAP_1D.npz",
-        "n_samples": 1523,
+        "n_samples": 2029,
         "n_features": 35
       },
       "XETR_SAP_1W": {
         "file": "data/splits/fold_8/train/XETR_SAP_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "XETR_SAP_4H": {
@@ -997,12 +997,12 @@
       },
       "XETR_SIE_1D": {
         "file": "data/splits/fold_8/train/XETR_SIE_1D.npz",
-        "n_samples": 1523,
+        "n_samples": 2029,
         "n_features": 35
       },
       "XETR_SIE_1W": {
         "file": "data/splits/fold_8/train/XETR_SIE_1W.npz",
-        "n_samples": 313,
+        "n_samples": 418,
         "n_features": 35
       },
       "XETR_SIE_4H": {
@@ -3197,18 +3197,18 @@
     }
   },
   "sample_counts": {
-    "train": 258187,
+    "train": 310179,
     "val": 133901,
     "test": 194400
   },
   "regime_counts": {
     "train": {
-      "trending_normal_vol": 102674,
-      "range_bound_normal_vol": 26921,
-      "trending_high_vol": 29800,
-      "range_bound_high_vol": 8727,
-      "trending_low_vol": 72342,
-      "range_bound_low_vol": 17723
+      "trending_high_vol": 35638,
+      "range_bound_high_vol": 10487,
+      "trending_normal_vol": 122109,
+      "range_bound_normal_vol": 31898,
+      "trending_low_vol": 88615,
+      "range_bound_low_vol": 21432
     },
     "val": {
       "trending_normal_vol": 22906,
@@ -3230,12 +3230,12 @@
   "cap_info": {},
   "cross_resolution_safe": true,
   "regime_balance_train": {
-    "trending_normal_vol": 39.77,
-    "range_bound_normal_vol": 10.43,
-    "trending_high_vol": 11.54,
+    "trending_high_vol": 11.49,
     "range_bound_high_vol": 3.38,
-    "trending_low_vol": 28.02,
-    "range_bound_low_vol": 6.86
+    "trending_normal_vol": 39.37,
+    "range_bound_normal_vol": 10.28,
+    "trending_low_vol": 28.57,
+    "range_bound_low_vol": 6.91
   },
   "regime_balance_val": {
     "trending_normal_vol": 17.11,

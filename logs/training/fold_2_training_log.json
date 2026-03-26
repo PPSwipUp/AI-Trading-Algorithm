@@ -1,0 +1,334 @@
+{
+  "fold": 2,
+  "config": {
+    "n_features": 35,
+    "n_train": 147967,
+    "n_val": 31521,
+    "batch_size": 256,
+    "max_epochs": 30,
+    "lr": 2e-05,
+    "ema_decay": 0.9995,
+    "noise_std": 0.15,
+    "feat_mask": 0.2,
+    "time_mask": 0.1,
+    "device": "cpu",
+    "n_parameters": 25302
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 0.34663,
+      "ema_val_loss": 0.347822,
+      "gap": 0.001192,
+      "train_dir_acc": [
+        51.51,
+        49.12,
+        56.73
+      ],
+      "ema_val_dir_acc": [
+        51.4,
+        47.29,
+        51.73
+      ],
+      "grad_norm": 0.0246,
+      "lr": 1.998e-05,
+      "epoch_seconds": 83.6
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.345407,
+      "ema_val_loss": 0.347274,
+      "gap": 0.001866,
+      "train_dir_acc": [
+        51.25,
+        53.02,
+        57.02
+      ],
+      "ema_val_dir_acc": [
+        51.4,
+        47.69,
+        51.73
+      ],
+      "grad_norm": 0.0219,
+      "lr": 1.982e-05,
+      "epoch_seconds": 83.7
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.345104,
+      "ema_val_loss": 0.347004,
+      "gap": 0.001899,
+      "train_dir_acc": [
+        51.31,
+        53.7,
+        57.03
+      ],
+      "ema_val_dir_acc": [
+        51.4,
+        52.36,
+        51.73
+      ],
+      "grad_norm": 0.0208,
+      "lr": 1.952e-05,
+      "epoch_seconds": 87.7
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.344956,
+      "ema_val_loss": 0.346934,
+      "gap": 0.001978,
+      "train_dir_acc": [
+        51.29,
+        53.71,
+        57.03
+      ],
+      "ema_val_dir_acc": [
+        51.4,
+        53.01,
+        51.73
+      ],
+      "grad_norm": 0.0212,
+      "lr": 1.906e-05,
+      "epoch_seconds": 85.1
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.344783,
+      "ema_val_loss": 0.346997,
+      "gap": 0.002213,
+      "train_dir_acc": [
+        51.28,
+        53.84,
+        57.03
+      ],
+      "ema_val_dir_acc": [
+        51.4,
+        52.83,
+        51.73
+      ],
+      "grad_norm": 0.0212,
+      "lr": 1.846e-05,
+      "epoch_seconds": 85.5
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.344597,
+      "ema_val_loss": 0.347147,
+      "gap": 0.00255,
+      "train_dir_acc": [
+        51.24,
+        54.0,
+        57.03
+      ],
+      "ema_val_dir_acc": [
+        51.4,
+        52.86,
+        51.73
+      ],
+      "grad_norm": 0.0216,
+      "lr": 1.773e-05,
+      "epoch_seconds": 85.2
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.344526,
+      "ema_val_loss": 0.347352,
+      "gap": 0.002826,
+      "train_dir_acc": [
+        51.31,
+        53.99,
+        57.03
+      ],
+      "ema_val_dir_acc": [
+        51.4,
+        52.86,
+        51.73
+      ],
+      "grad_norm": 0.0225,
+      "lr": 1.689e-05,
+      "epoch_seconds": 85.8
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.34442,
+      "ema_val_loss": 0.347568,
+      "gap": 0.003148,
+      "train_dir_acc": [
+        51.45,
+        54.08,
+        57.01
+      ],
+      "ema_val_dir_acc": [
+        51.4,
+        52.94,
+        51.73
+      ],
+      "grad_norm": 0.0231,
+      "lr": 1.593e-05,
+      "epoch_seconds": 86.6
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.344306,
+      "ema_val_loss": 0.347808,
+      "gap": 0.003502,
+      "train_dir_acc": [
+        51.44,
+        54.09,
+        57.07
+      ],
+      "ema_val_dir_acc": [
+        51.4,
+        52.99,
+        51.73
+      ],
+      "grad_norm": 0.0239,
+      "lr": 1.489e-05,
+      "epoch_seconds": 84.7
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.344239,
+      "ema_val_loss": 0.348036,
+      "gap": 0.003797,
+      "train_dir_acc": [
+        51.42,
+        54.14,
+        57.09
+      ],
+      "ema_val_dir_acc": [
+        51.4,
+        53.02,
+        51.75
+      ],
+      "grad_norm": 0.024,
+      "lr": 1.378e-05,
+      "epoch_seconds": 93.7
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.344173,
+      "ema_val_loss": 0.348264,
+      "gap": 0.004091,
+      "train_dir_acc": [
+        51.47,
+        54.21,
+        57.11
+      ],
+      "ema_val_dir_acc": [
+        51.4,
+        53.06,
+        52.06
+      ],
+      "grad_norm": 0.0248,
+      "lr": 1.261e-05,
+      "epoch_seconds": 84.9
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.344086,
+      "ema_val_loss": 0.348462,
+      "gap": 0.004376,
+      "train_dir_acc": [
+        51.49,
+        54.19,
+        57.1
+      ],
+      "ema_val_dir_acc": [
+        51.4,
+        53.19,
+        52.31
+      ],
+      "grad_norm": 0.0249,
+      "lr": 1.141e-05,
+      "epoch_seconds": 84.5
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.344142,
+      "ema_val_loss": 0.348628,
+      "gap": 0.004486,
+      "train_dir_acc": [
+        51.5,
+        54.22,
+        57.13
+      ],
+      "ema_val_dir_acc": [
+        51.4,
+        53.26,
+        52.77
+      ],
+      "grad_norm": 0.0251,
+      "lr": 1.019e-05,
+      "epoch_seconds": 84.1
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.344064,
+      "ema_val_loss": 0.348749,
+      "gap": 0.004685,
+      "train_dir_acc": [
+        51.47,
+        54.21,
+        57.12
+      ],
+      "ema_val_dir_acc": [
+        51.4,
+        53.23,
+        52.85
+      ],
+      "grad_norm": 0.0251,
+      "lr": 8.98e-06,
+      "epoch_seconds": 84.1
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.344001,
+      "ema_val_loss": 0.348882,
+      "gap": 0.004881,
+      "train_dir_acc": [
+        51.45,
+        54.14,
+        57.12
+      ],
+      "ema_val_dir_acc": [
+        51.4,
+        53.17,
+        52.84
+      ],
+      "grad_norm": 0.0253,
+      "lr": 7.8e-06,
+      "epoch_seconds": 89.2
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.344067,
+      "ema_val_loss": 0.34895,
+      "gap": 0.004883,
+      "train_dir_acc": [
+        51.49,
+        54.21,
+        57.06
+      ],
+      "ema_val_dir_acc": [
+        51.4,
+        53.25,
+        52.97
+      ],
+      "grad_norm": 0.0257,
+      "lr": 6.65e-06,
+      "epoch_seconds": 84.7
+    }
+  ],
+  "stop_reason": "Early stop (best ep 4)",
+  "best_epoch": 4,
+  "best_val_loss": 0.346934,
+  "total_epochs": 16,
+  "total_seconds": 1373.1,
+  "final_val_loss": 0.346934,
+  "final_val_dir_acc": [
+    51.4,
+    53.01,
+    51.73
+  ]
+}
